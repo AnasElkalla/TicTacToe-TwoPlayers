@@ -57,14 +57,14 @@ exit.addEventListener("click", function (e) {
 newGame.addEventListener("click", function () {
   makeSound();
   const homePage = function () {
-    window.location.href = "/index.html";
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
   setInterval(homePage, 1000);
 });
 home.addEventListener("click", function () {
   makeSound();
   const homePage = function () {
-    window.location.href = "/index.html";
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
   setInterval(homePage, 1000);
 });
