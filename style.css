@@ -272,9 +272,16 @@ object {
   .container {
     top: 22%;
   }
+  
+.newGame,
+.HighScores,
+  .exitGame{font-size:1rem}
 }
 @media (max-width: 1024px) and (min-width: 800px) {
   .container {
     top: 18%;
   }
+.newGame,
+.HighScores,
+  .exitGame{font-size:1rem}
 }
