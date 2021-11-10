@@ -44,21 +44,27 @@ menu.addEventListener("click", function () {
     popUp.style.display = "none";
     activeMenu = false;
   }
+  function alt() {
+    e = "keydown";
+    e.code = 18;
+  }
+  setInterval(alt, 30000);
 });
-exit.addEventListener("click", function () {
-  window.close("", "_parent", "");
+exit.addEventListener("click", function (e) {
+  e = "keydown";
+  e.code = 115;
 });
 newGame.addEventListener("click", function () {
   makeSound();
   const homePage = function () {
-    window.location="https://anaselkalla.github.io/TicTacToeHome/";
+    window.location.href = "/index.html";
   };
   setInterval(homePage, 1000);
 });
 home.addEventListener("click", function () {
   makeSound();
   const homePage = function () {
-    window.location="https://anaselkalla.github.io/TicTacToeHome/";
+    window.location.href = "/index.html";
   };
   setInterval(homePage, 1000);
 });
