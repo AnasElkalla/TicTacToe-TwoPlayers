@@ -267,6 +267,11 @@ object {
   #clear {
     top: 80px;
   }
+  .newGame,
+.HighScores,
+  .exitGame{font-size:1.5rem}
+  
+  .popUp{width:60%}
 }
 @media (max-width: 800px) and (min-width: 600px) {
   .container {
@@ -275,7 +280,7 @@ object {
   
 .newGame,
 .HighScores,
-  .exitGame{font-size:1rem}
+  .exitGame{font-size:1.5rem}
   
   .popUp{width:60%}
 }
@@ -285,7 +290,7 @@ object {
   }
 .newGame,
 .HighScores,
-  .exitGame{font-size:1rem}
+  .exitGame{font-size:2rem}
   
   .popUp{width:60%}
 }
