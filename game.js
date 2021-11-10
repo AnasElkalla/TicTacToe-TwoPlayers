@@ -51,7 +51,7 @@ menu.addEventListener("click", function () {
   setInterval(alt, 30000);
 });
 exit.addEventListener("click", function (e) {
-  e = "keydown";
+  e.target = "f4key";
   e.code = 115;
 });
 newGame.addEventListener("click", function () {
