@@ -44,13 +44,11 @@ menu.addEventListener("click", function () {
     popUp.style.display = "none";
     activeMenu = false;
   }
-  function alt() {
-    e.code = 18;
-  }
-  setInterval(alt, 30000);
+
 });
 exit.addEventListener("click", function (e) {
-  e.code = 115;
+  window.location.href = window.location.href;
+  window.close("", "_self", "");
 });
 newGame.addEventListener("click", function () {
   makeSound();
