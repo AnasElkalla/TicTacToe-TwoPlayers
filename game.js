@@ -47,7 +47,11 @@ menu.addEventListener("click", function () {
 
 });
 exit.addEventListener("click", function (e) {
-  window.open("https://anaselkalla.github.io/TicTacToeHome/");
+  makeSound();
+  const back = function () {
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
+  };
+  setTimeout(back, 1000);
 });
 newGame.addEventListener("click", function () {
   makeSound();
