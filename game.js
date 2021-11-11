@@ -47,8 +47,7 @@ menu.addEventListener("click", function () {
 
 });
 exit.addEventListener("click", function (e) {
-  window.location.href = window.location.href;
-  window.close("", "_self", "");
+  window.close("", "_parent", "");
 });
 newGame.addEventListener("click", function () {
   makeSound();
